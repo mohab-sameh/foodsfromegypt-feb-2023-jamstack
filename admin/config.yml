@@ -1,0 +1,820 @@
+backend:
+  name: git-gateway
+  accept_roles:
+    - admin
+    - editor
+media_folder: theme/assets/images
+public_folder: /assets/images
+collections:
+  - name: pages
+    label: Pages
+    identifier_field: title
+    extension: md
+    create: false
+    delete: false
+    slug: '{{slug}}'
+    editor:
+      preview: false
+    folder: cms/pages
+    fields:
+      - label: Title
+        name: title
+        widget: string
+      - label: Publish Date
+        name: date
+        widget: datetime
+      - label: Layout
+        widget: hidden
+        name: layout
+        default: '{{slug}}.html'
+      - &ref_0
+        label: Seo
+        name: seo
+        widget: object
+        collapsed: true
+        fields:
+          - label: Title
+            name: title
+            widget: string
+            required: false
+          - label: Description
+            name: description
+            widget: string
+            required: false
+          - label: No index
+            name: noindex
+            widget: boolean
+            default: false
+            required: false
+          - label: Open Graph Title
+            name: og:title
+            widget: string
+            required: false
+          - label: Open Graph Image
+            name: og:image
+            widget: image
+            required: false
+            media_library:
+              config:
+                multiple: false
+          - label: Twitter Title
+            name: twitter:title
+            widget: string
+            default: summary
+            required: false
+          - label: Twitter Card
+            name: twitter:card
+            widget: string
+            default: summary
+            required: false
+          - label: Twitter Site
+            name: twitter:site
+            widget: string
+            required: false
+          - label: Twitter Creator
+            name: twitter:creator
+            widget: string
+            required: false
+          - label: Additional HTML tags
+            name: additional_tags
+            widget: text
+            required: false
+  - name: exhibitors
+    label: Exhibitors
+    folder: cms/exhibitors
+    create: true
+    identifier_field: name
+    extension: md
+    slug: '{{slug}}'
+    fields:
+      - hint: ''
+        name: title
+        label: Name
+        widget: string
+        required: true
+      - hint: ''
+        name: created-on
+        label: Created On
+        widget: datetime
+        required: false
+      - hint: ''
+        name: updated-on
+        label: Updated On
+        widget: datetime
+        required: false
+      - hint: ''
+        name: published-on
+        label: Published On
+        widget: datetime
+        required: false
+      - hint: ''
+        name: f_hall
+        label: Hall
+        widget: select
+        required: false
+        options:
+          - label: Sheikh Maktoum
+            value: Sheikh Maktoum
+          - label: Dairy Hall
+            value: Dairy Hall
+          - label: Beverage Hall
+            value: Beverage Hall
+          - label: Pulses & Grains Hall
+            value: Pulses & Grains Hall
+      - hint: ''
+        name: f_hall-stand
+        label: Hall Stand
+        widget: string
+        required: false
+      - hint: ''
+        name: f_exhibitor-name
+        label: Exhibitor Name
+        widget: string
+        required: false
+      - hint: ''
+        name: f_exhibitor-logo
+        label: Exhibitor Logo
+        widget: object
+        required: false
+        fields:
+          - hint: ''
+            name: url
+            label: Image
+            widget: image
+            required: false
+            allow_multiple: false
+          - hint: Image Alt
+            name: alt
+            label: alt
+            widget: string
+            required: false
+      - hint: ''
+        name: f_poc-name
+        label: POC Name
+        widget: string
+        required: false
+      - hint: ''
+        name: f_poc-phone
+        label: POC Phone
+        widget: string
+        required: false
+      - hint: ''
+        name: f_poc-email
+        label: POC Email
+        widget: string
+        required: false
+      - hint: ''
+        name: f_company-profile-link
+        label: Company Profile Link
+        widget: string
+        required: false
+      - hint: ''
+        name: f_website-link
+        label: Website Link
+        widget: string
+        required: false
+      - label: Tags
+        widget: hidden
+        name: tags
+        default: exhibitors
+      - label: Layout
+        widget: hidden
+        name: layout
+        default: '[exhibitors].html'
+      - label: Publish Date
+        name: date
+        widget: datetime
+      - *ref_0
+  - name: categories
+    label: Categories
+    folder: cms/categories
+    create: true
+    identifier_field: name
+    extension: md
+    slug: '{{slug}}'
+    fields:
+      - hint: ''
+        name: title
+        label: Name
+        widget: string
+        required: true
+      - hint: ''
+        name: created-on
+        label: Created On
+        widget: datetime
+        required: false
+      - hint: ''
+        name: updated-on
+        label: Updated On
+        widget: datetime
+        required: false
+      - hint: ''
+        name: published-on
+        label: Published On
+        widget: datetime
+        required: false
+      - hint: ''
+        name: f_image
+        label: Image
+        widget: object
+        required: false
+        fields:
+          - hint: ''
+            name: url
+            label: Image
+            widget: image
+            required: false
+            allow_multiple: false
+          - hint: Image Alt
+            name: alt
+            label: alt
+            widget: string
+            required: false
+      - hint: ''
+        name: f_exhibitors
+        label: Exhibitors
+        widget: relation
+        required: false
+        collection: exhibitors
+        value_field: cms/exhibitors/{{slug}}.md
+        search_fields:
+          - slug
+          - name
+        display_fields:
+          - title
+        multiple: true
+      - label: Tags
+        widget: hidden
+        name: tags
+        default: categories
+      - label: Layout
+        widget: hidden
+        name: layout
+        default: '[categories].html'
+      - label: Publish Date
+        name: date
+        widget: datetime
+      - *ref_0
+  - label: Theme Settings
+    name: settings
+    identifier_field: title
+    extension: json
+    create: false
+    delete: false
+    slug: '{{slug}}'
+    editor:
+      preview: false
+    files:
+      - label: General
+        name: site
+        file: cms/_data/settings/site.json
+        fields:
+          - label: Title
+            name: title
+            widget: hidden
+            default: General
+          - hint: Full domain url (needed for a correct sitemap file)
+            name: domain
+            label: Domain
+            widget: string
+            required: false
+          - name: favicon
+            label: Favicon
+            widget: image
+            allow_multiple: false
+            required: false
+          - name: apple_touch_icon
+            label: Apple Touch Icon
+            widget: image
+            allow_multiple: false
+            required: false
+          - name: header_additional_content
+            label: Additional Content Header
+            hint: Content here will be placed before </head> tag
+            widget: text
+            required: false
+          - name: footer_additional_content
+            label: Additional Content Footer
+            hint: Content here will be placed before </body> tag
+            widget: text
+            required: false
+          - name: images_optimization
+            label: Images Optimization
+            widget: object
+            collapsed: false
+            fields:
+              - label: Image Formats
+                name: formats
+                widget: select
+                multiple: true
+                options:
+                  - label: Avif
+                    value: avif
+                  - label: Webp
+                    value: webp
+              - label: Image Dimensions
+                name: dimensions
+                widget: select
+                multiple: true
+                options:
+                  - label: '500'
+                    value: 500
+                  - label: '800'
+                    value: 800
+                  - label: '1080'
+                    value: 1080
+                  - label: '1600'
+                    value: 1600
+                  - label: '2000'
+                    value: 2000
+                  - label: '2600'
+                    value: 2600
+      - label: Colors
+        name: colors
+        file: cms/_data/colors.json
+        fields:
+          - label: Title
+            name: title
+            widget: hidden
+            default: Colors
+      - label: Texts
+        name: texts
+        file: cms/_data/texts.json
+        fields:
+          - label: Title
+            name: title
+            widget: hidden
+            default: Texts
+          - hint: 'Original text: Home, key: 2268ff'
+            label: Text
+            name: 2268ff
+            widget: string
+          - hint: 'Original text: Exhibit, key: 14be4779'
+            label: Text
+            name: 14be4779
+            widget: string
+          - hint: 'Original text: About, key: 3c2336d'
+            label: Text
+            name: 3c2336d
+            widget: string
+          - hint: 'Original text: Contact, key: -64104400'
+            label: Text
+            name: '-64104400'
+            widget: string
+          - hint: 'Original text: Exclusive Banking Partner, key: 527c38ec'
+            label: Text
+            name: 527c38ec
+            widget: string
+          - hint: 'Original text: The Foodie Experience, key: -150152bf'
+            label: Text
+            name: '-150152bf'
+            widget: string
+          - hint: >-
+              Original text: Lorem ipsum dolor sit amet consectetur. Bibendum
+              libero proin augue bibendum tincidunt. Consequat auctor bibendum
+              scelerisque nisi. Posuere quisque lacus sed purus eget vulputate
+              pretium. Congue ornare risus lectus cras molestie ullamcorper
+              viverra blandit. At felis cursus suspendisse ac id., key:
+              -56ca424c
+            label: Text
+            name: '-56ca424c'
+            widget: text
+          - hint: 'Original text: Learn More About the FEC, key: -4bffc06d'
+            label: Text
+            name: '-4bffc06d'
+            widget: string
+          - hint: >-
+              Original text: We Made, and Still Are, Making History, key:
+              -58040355
+            label: Text
+            name: '-58040355'
+            widget: string
+          - hint: 'Original text: Exquisite Strawberries, key: -6a2d684c'
+            label: Text
+            name: '-6a2d684c'
+            widget: string
+          - hint: >-
+              Original text: The most premium frozen strawberries!, key:
+              -5efb9855
+            label: Text
+            name: '-5efb9855'
+            widget: string
+          - hint: >-
+              Original text:  Value of exports exceeding $7 million USD in 2021
+              with a growth of 13% over 2020., key: -5d2a5f2a
+            label: Text
+            name: '-5d2a5f2a'
+            widget: string
+          - hint: 'Original text: Oleaginous Beauty, key: -642cfd1e'
+            label: Text
+            name: '-642cfd1e'
+            widget: string
+          - hint: 'Original text: The best oleaginous oils and fruits!, key: 22fd3b3'
+            label: Text
+            name: 22fd3b3
+            widget: string
+          - hint: >-
+              Original text:  Value of exports exceeding $7 million USD in 2021
+              with a growth of 15% over 2020., key: 7fdbadd8
+            label: Text
+            name: 7fdbadd8
+            widget: string
+          - hint: 'Original text: About the Egyptian Presence, key: 5c1b38fe'
+            label: Text
+            name: 5c1b38fe
+            widget: string
+          - hint: 'Original text: 100+, key: 17005a'
+            label: Text
+            name: 17005a
+            widget: string
+          - hint: 'Original text: Exhibitors, key: -14fef729'
+            label: Text
+            name: '-14fef729'
+            widget: string
+          - hint: 'Original text: 15, key: 624'
+            label: Text
+            name: '624'
+            widget: string
+          - hint: 'Original text: Sectors, key: -2757d253'
+            label: Text
+            name: '-2757d253'
+            widget: string
+          - hint: 'Original text: 500+, key: 18d1d6'
+            label: Text
+            name: 18d1d6
+            widget: string
+          - hint: 'Original text: Products, key: -37f9ca7c'
+            label: Text
+            name: '-37f9ca7c'
+            widget: string
+          - hint: 'Original text: Visit Our Exhibitors, key: -55ff3a20'
+            label: Text
+            name: '-55ff3a20'
+            widget: string
+          - hint: 'Original text: Visit Exhibitor List , key: 595b8029'
+            label: Text
+            name: 595b8029
+            widget: string
+          - hint: 'Original text: →, key: 2192'
+            label: Text
+            name: '2192'
+            widget: string
+          - hint: 'Original text: Let the FEC Help Connect You, key: 6a3b57a'
+            label: Text
+            name: 6a3b57a
+            widget: string
+          - hint: >-
+              Original text: Connecting you to your best match through our
+              highly experienced consultancy team., key: -40024ee2
+            label: Text
+            name: '-40024ee2'
+            widget: string
+          - hint: >-
+              Original text: Thank you! Your submission has been received!, key:
+              5a0ea5a1
+            label: Text
+            name: 5a0ea5a1
+            widget: string
+          - hint: >-
+              Original text: Oops! Something went wrong while submitting the
+              form., key: -7c112e99
+            label: Text
+            name: '-7c112e99'
+            widget: string
+          - hint: >-
+              Original text: ⓒ 2023 Food Export Council. All rights reserved.,
+              key: 2b333672
+            label: Text
+            name: 2b333672
+            widget: string
+          - hint: 'Original text: Heading, key: -6d5fea1e'
+            label: Text
+            name: '-6d5fea1e'
+            widget: string
+          - hint: 'Original text: Egyptian Exhibition Halls, key: 283b5f0e'
+            label: Text
+            name: 283b5f0e
+            widget: string
+          - hint: >-
+              Original text: All the halls where we will be shining!, key:
+              4f55cfed
+            label: Text
+            name: 4f55cfed
+            widget: string
+          - hint: 'Original text: Egyptian Product Range, key: 568d4767'
+            label: Text
+            name: 568d4767
+            widget: string
+          - hint: 'Original text: Coffee, Tea & Herbal Teas, key: 3a4c8121'
+            label: Text
+            name: 3a4c8121
+            widget: string
+          - hint: 'Original text: Available Exhibitors, key: a1ba2ae'
+            label: Text
+            name: a1ba2ae
+            widget: string
+          - hint: 'Original text: No items found., key: 3d503d2b'
+            label: Text
+            name: 3d503d2b
+            widget: string
+          - hint: 'Original text: Egyptian Exhibitors, key: -1950ee24'
+            label: Text
+            name: '-1950ee24'
+            widget: string
+          - hint: 'Original text: Sheikh Maktoum Hall, key: -4e9c267'
+            label: Text
+            name: '-4e9c267'
+            widget: string
+          - hint: 'Original text: Everyone at the Sheikh Maktoum Hall, key: -6f9ea5ce'
+            label: Text
+            name: '-6f9ea5ce'
+            widget: string
+          - hint: 'Original text: POINT OF CONTACT, key: -43a13c99'
+            label: Text
+            name: '-43a13c99'
+            widget: string
+          - hint: 'Original text: Company Profile, key: 2294e4c6'
+            label: Text
+            name: 2294e4c6
+            widget: string
+          - hint: 'Original text: Exhibitor Website, key: 27939377'
+            label: Text
+            name: '27939377'
+            widget: string
+          - hint: 'Original text: Dairy Hall, key: bb16da6'
+            label: Text
+            name: bb16da6
+            widget: string
+          - hint: 'Original text: Everyone at the Dairy Hall, key: 1f0c10ed'
+            label: Text
+            name: 1f0c10ed
+            widget: string
+          - hint: 'Original text: Beverage Hall, key: -1d122cc6'
+            label: Text
+            name: '-1d122cc6'
+            widget: string
+          - hint: 'Original text: Everyone at the Beverage Hall, key: 238c9693'
+            label: Text
+            name: 238c9693
+            widget: string
+          - hint: 'Original text: Pulses & Grains Hall, key: -20bac67f'
+            label: Text
+            name: '-20bac67f'
+            widget: string
+          - hint: 'Original text: Everyone at the Pulses & Grains Hall, key: -ca24ff8'
+            label: Text
+            name: '-ca24ff8'
+            widget: string
+          - hint: >-
+              Original text: Showing the Best of Egypt to the World, key:
+              -1c04cbe6
+            label: Text
+            name: '-1c04cbe6'
+            widget: string
+          - hint: >-
+              Original text: Egypt is very proud of its products and producers.
+              When it comes to food, Egypt is an enthusiast. We aim to grow
+              Egyptian foods to become an international sensation. Although not
+              an easy task, it won’t be our first time. Since the dawn of time
+              and our crops have been exported everywhere, from Rome to the
+              Arabian peninsula., key: -4a3ba7e2
+            label: Text
+            name: '-4a3ba7e2'
+            widget: text
+          - hint: 'Original text: There Are Things We’re the Best At!, key: -3ef035ca'
+            label: Text
+            name: '-3ef035ca'
+            widget: string
+          - hint: 'Original text: Quick & Strong Growth, key: 5c4458a3'
+            label: Text
+            name: 5c4458a3
+            widget: string
+          - hint: >-
+              Original text: Over the past few years, Egypt has worked
+              tirelessly to grow its food produce to reach an internationally
+              renowned level. Since then, Egyptian processed food exports has
+              grown tremendously, reaching $4.2 Billion USD in 2021., key:
+              9e340bd
+            label: Text
+            name: 9e340bd
+            widget: text
+          - hint: 'Original text: And There is Still to Come!, key: fa4aea1'
+            label: Text
+            name: fa4aea1
+            widget: string
+          - hint: >-
+              Original text: In addition to aiming to generally grow food
+              product exports, Egypt aimed to grow its exports to the EU
+              specifically. Egypt’s processed food exports to EU achieved 20%
+              increase in 2021 versus 2020., key: 34aca333
+            label: Text
+            name: 34aca333
+            widget: text
+          - hint: >-
+              Original text: For Egypt to do all of this, every Egyptian in the
+              food & beverage sector had to work day and night, with enormous
+              focus. We have improved our quality, our safety measures, and
+              forever will be trying to do our absolute best to stay true to our
+              mission; , key: 5004fd70
+            label: Text
+            name: 5004fd70
+            widget: text
+          - hint: >-
+              Original text: making Egyptian food exports an international
+              sensation., key: 3d319c02
+            label: Text
+            name: 3d319c02
+            widget: string
+          - hint: 'Original text: Connect. Export. Grow., key: -4e59a8e7'
+            label: Text
+            name: '-4e59a8e7'
+            widget: string
+          - hint: >-
+              Original text: The Food Export Council – FEC aims to link both
+              production and exports' policies, as well as promote Egyptian
+              exports and highlight Egyptian food products as reputable products
+              in international markets., key: 5d50900b
+            label: Text
+            name: 5d50900b
+            widget: text
+          - hint: >-
+              Original text: The Food Export Council - FEC is the link between
+              private sector exporters and the government. The council's
+              objective is to improve the competitive advantage of the sector
+              and strengthen the industry’s positive image in the world
+              marketplace. FEC members are the leading exporting companies in
+              the field, covering 27 of the food industry sub-sectors., key:
+              -7441b7b
+            label: Text
+            name: '-7441b7b'
+            widget: text
+      - label: Links
+        name: links
+        file: cms/_data/links.json
+        fields:
+          - label: Title
+            name: title
+            widget: hidden
+            default: Links
+          - hint: 'Original link: #, key: 23'
+            label: Link
+            name: '23'
+            widget: string
+          - hint: 'Original link: /, key: 2f'
+            label: Link
+            name: 2f
+            widget: string
+          - hint: 'Original link: /exhibit, key: -3c231376'
+            label: Link
+            name: '-3c231376'
+            widget: string
+          - hint: 'Original link: /about, key: 55b8e8be'
+            label: Link
+            name: 55b8e8be
+            widget: string
+          - hint: 'Original link: #contact, key: 6c80469d'
+            label: Link
+            name: 6c80469d
+            widget: string
+          - hint: 'Original link: http://facebook.com, key: 63d9516b'
+            label: Link
+            name: 63d9516b
+            widget: string
+          - hint: 'Original link: http://linkedin.com, key: 19976ba3'
+            label: Link
+            name: 19976ba3
+            widget: string
+          - hint: 'Original link: http://instagram.com, key: -5cd3f38d'
+            label: Link
+            name: '-5cd3f38d'
+            widget: string
+          - hint: 'Original link: http://youtube.com, key: 499802e4'
+            label: Link
+            name: '499802e4'
+            widget: string
+      - label: Images
+        name: images
+        file: cms/_data/images.json
+        fields:
+          - label: Title
+            name: title
+            widget: hidden
+            default: Images
+          - label: Image
+            name: '77011312'
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: i4b96f42f
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: 7ffb73db
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: 60086fbf
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: 395e0ab1
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: '-40040899'
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: '-65191692'
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: 4bc5256e
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: '-1d96be21'
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+publish_mode: editorial_workflow
