@@ -1,6 +1,7 @@
 ---
 f_website-link: https://www.elsabah.net
 f_company-profile-link: https://www.playbook.com/s/fec/company-profiles
+f_hall: Beverage Hall
 f_hall-stand: Za'abeel Hall 2 - Z2-E30
 f_poc-phone: (+20)1005014149
 title: Elsabah Company for food industries

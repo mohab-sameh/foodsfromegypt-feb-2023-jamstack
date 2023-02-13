@@ -2,6 +2,7 @@
 f_website-link: https://www.elrabiegroup.com
 f_company-profile-link: https://www.playbook.com/s/fec/company-profiles
 f_poc-phone: null
+f_hall: Beverage Hall
 f_hall-stand: Za'abeel Hall 2 - Z2-D37
 title: Oryx Land
 f_poc-email: Hatem_oryx@yahoo.com

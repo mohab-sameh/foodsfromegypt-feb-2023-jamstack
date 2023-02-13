@@ -2,6 +2,7 @@
 f_website-link: https://www.misritaly.net
 f_company-profile-link: https://www.playbook.com/s/fec/company-profiles
 f_poc-phone: null
+f_hall: Beverage Hall
 f_hall-stand: Za'abeel Hall 2 - Z2-E36
 title: Misr Italy Group for Food Industries
 f_poc-email: haitham@misrcafe.com.eg
