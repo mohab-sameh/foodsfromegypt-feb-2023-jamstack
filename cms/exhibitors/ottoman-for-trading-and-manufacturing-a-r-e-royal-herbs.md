@@ -2,6 +2,7 @@
 f_company-profile-link: https://www.playbook.com/s/fec/company-profiles
 f_poc-name: null
 f_hall: Sheikh Maktoum
+f_hall: Sheikh Maktoum
 f_hall-stand: Sheikh Maktoum  - M-E3
 f_poc-phone: (+20)1006871171
 title: Ottoman for Trading and Manufacturing A.R.E. (Royal Herbs)

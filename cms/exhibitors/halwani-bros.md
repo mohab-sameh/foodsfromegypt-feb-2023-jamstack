@@ -2,6 +2,7 @@
 f_website-link: https://www.halwani.com.sa
 f_company-profile-link: https://www.playbook.com/s/fec/company-profiles
 f_hall: Sheikh Maktoum
+f_hall: Sheikh Maktoum
 f_hall-stand: Sheikh Maktoum  - M-F41
 f_poc-phone: (+20)1002405850
 title: Halwani Bros

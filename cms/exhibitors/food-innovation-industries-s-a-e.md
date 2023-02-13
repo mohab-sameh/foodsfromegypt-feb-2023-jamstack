@@ -2,6 +2,7 @@
 f_website-link: https://www.justfruits.net
 f_company-profile-link: https://www.playbook.com/s/fec/company-profiles
 f_hall: Sheikh Maktoum
+f_hall: Sheikh Maktoum
 f_hall-stand: Sheikh Maktoum  - M-E44
 f_poc-phone: (+20)1007944444
 title: Food Innovation Industries S.A.E

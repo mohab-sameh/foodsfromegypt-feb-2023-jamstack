@@ -2,6 +2,7 @@
 f_website-link: https://www.edita.com.eg
 f_company-profile-link: https://www.playbook.com/s/fec/company-profiles
 f_hall: Sheikh Maktoum
+f_hall: Sheikh Maktoum
 f_hall-stand: Sheikh Maktoum  - M-138
 f_poc-phone: (+20)1063347684
 title: Edita Food Industries

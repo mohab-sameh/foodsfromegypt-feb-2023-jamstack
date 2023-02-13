@@ -3,6 +3,7 @@ f_website-link: https://www.goldalex.net
 f_company-profile-link: https://www.playbook.com/s/fec/company-profiles
 f_poc-name: null
 f_hall: Sheikh Maktoum
+f_hall: Sheikh Maktoum
 f_hall-stand: Sheikh Maktoum  - M-210
 f_poc-phone: (+20)1111117019
 title: Gulf Egyptian Center - Goldalex
