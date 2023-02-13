@@ -2,6 +2,7 @@
 f_website-link: https://www.as-export.com/
 f_company-profile-link: https://www.playbook.com/s/fec/company-profiles
 f_poc-phone: null
+f_hall: Sheikh Maktoum
 f_hall-stand: Sheikh Maktoum  - M-E37
 title: Ayman Shahin For Export
 f_poc-email: a.azzam@arabian-milling.com

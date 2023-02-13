@@ -2,6 +2,7 @@
 f_company-profile-link: https://www.playbook.com/s/fec/company-profiles
 f_poc-phone: null
 f_hall: Sheikh Maktoum
+f_hall: Sheikh Maktoum
 f_hall-stand: Sheikh Maktoum  - M-238
 title: Orient Group for Food Industries
 f_poc-email: rawya.elmasry@orienteg.com

@@ -1,6 +1,7 @@
 ---
 f_website-link: https://www.dalsafood.com
 f_company-profile-link: https://www.playbook.com/s/fec/company-profiles
+f_hall: Sheikh Maktoum
 f_hall-stand: Sheikh Maktoum  - M-D38
 f_poc-phone: (+20)1003229900
 title: Dalsa French Fries

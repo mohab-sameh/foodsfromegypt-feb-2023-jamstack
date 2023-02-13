@@ -2,6 +2,7 @@
 f_website-link: https://www.expoeast.me
 f_company-profile-link: https://www.playbook.com/s/fec/company-profiles
 f_hall: Sheikh Maktoum
+f_hall: Sheikh Maktoum
 f_hall-stand: Sheikh Maktoum  - M-D18
 f_poc-phone: (+20)1275866677
 title: Expo East for Manufacturing  & Global Trade Co.

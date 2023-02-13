@@ -2,6 +2,7 @@
 f_website-link: https://www.badawygroup.net
 f_company-profile-link: https://www.playbook.com/s/fec/company-profiles
 f_poc-phone: null
+f_hall: Sheikh Maktoum
 f_hall-stand: Sheikh Maktoum  - M-218
 title: Badawy Group for Food Industries
 f_poc-email: Awael_foodind@yahoo.com
