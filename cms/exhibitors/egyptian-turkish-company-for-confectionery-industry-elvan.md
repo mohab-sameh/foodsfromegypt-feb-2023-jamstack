@@ -2,7 +2,6 @@
 f_website-link: https://www.elvanegypt.com
 f_company-profile-link: https://www.playbook.com/s/fec/company-profiles
 f_hall: Sheikh Maktoum
-f_hall: Sheikh Maktoum
 f_hall-stand: Sheikh Maktoum  - M-136
 f_poc-phone: (+20)12212466557
 title: Egyptian Turkish Company for Confectionery Industry -Elvan

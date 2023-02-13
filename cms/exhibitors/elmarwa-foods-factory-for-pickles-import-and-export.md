@@ -3,7 +3,6 @@ f_website-link: https://www.elmarwa-foods.com
 f_company-profile-link: https://www.playbook.com/s/fec/company-profiles
 f_poc-phone: null
 f_hall: Sheikh Maktoum
-f_hall: Sheikh Maktoum
 f_hall-stand: Sheikh Maktoum  - M-F7
 title: Elmarwa Foods Factory for Pickles Import and Export
 f_poc-email: mohamed@elmarwafoods.com

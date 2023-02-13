@@ -2,7 +2,6 @@
 f_website-link: https://www.fruitland-eg.com
 f_company-profile-link: https://www.playbook.com/s/fec/company-profiles
 f_hall: Sheikh Maktoum
-f_hall: Sheikh Maktoum
 f_hall-stand: Sheikh Maktoum  - M-D34
 f_poc-phone: (+20)1002105170
 title: Fruit Land Mohamed Reyad Abdul Nabi  & Partners

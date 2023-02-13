@@ -1,7 +1,6 @@
 ---
 f_company-profile-link: https://www.playbook.com/s/fec/company-profiles
 f_hall: Sheikh Maktoum
-f_hall: Sheikh Maktoum
 f_hall-stand: Sheikh Maktoum  - M-E41
 f_poc-phone: (+20)1021116050
 title: United Investment for Food Products "UniFood"

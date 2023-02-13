@@ -2,7 +2,6 @@
 f_website-link: https://www.elrashidielmizan.net
 f_company-profile-link: https://www.playbook.com/s/fec/company-profiles
 f_hall: Sheikh Maktoum
-f_hall: Sheikh Maktoum
 f_hall-stand: Sheikh Maktoum  - M-E36
 f_poc-phone: (+20)1001308080
 title: El Rashidi El Mizan Confectionary

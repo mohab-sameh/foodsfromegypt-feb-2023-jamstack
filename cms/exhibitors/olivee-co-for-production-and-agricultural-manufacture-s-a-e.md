@@ -1,7 +1,6 @@
 ---
 f_company-profile-link: https://www.playbook.com/s/fec/company-profiles
 f_hall: Sheikh Maktoum
-f_hall: Sheikh Maktoum
 f_hall-stand: Sheikh Maktoum  - M-E14
 f_poc-phone: (+20)1110118824
 title: Olivee Co. for Production and Agricultural Manufacture S.A.E
