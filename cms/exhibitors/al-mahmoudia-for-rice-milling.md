@@ -1,6 +1,7 @@
 ---
 f_website-link: https://www.mrmgroup-eg.com
 f_company-profile-link: https://www.playbook.com/s/fec/company-profiles
+f_hall: Pulses & Grains Hall
 f_hall-stand: Za'abeel Hall 4 - Z4-F13
 f_poc-phone: (+20)1090867867
 title: Al Mahmoudia for Rice Milling

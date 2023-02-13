@@ -1,6 +1,7 @@
 ---
 f_website-link: https://www.alwefakalsaudi.com
 f_company-profile-link: https://www.playbook.com/s/fec/company-profiles
+f_hall: Pulses & Grains Hall
 f_hall-stand: Za'abeel Hall 4 - Z4-E12
 f_poc-phone: (+20)1068817055
 title: Al Wefak Al Saudi for Food Industries

@@ -2,6 +2,7 @@
 f_website-link: https://www.famousfoodeg.com
 f_company-profile-link: https://www.playbook.com/s/fec/company-profiles
 f_poc-phone: null
+f_hall: Pulses & Grains Hall
 f_hall-stand: Za'abeel Hall 4 - Z4-E6
 title: Famous Food
 f_poc-email: nejd.kraiem@milano-eg.com

@@ -1,6 +1,7 @@
 ---
 f_website-link: https://www.spectra-eg.co
 f_company-profile-link: https://www.playbook.com/s/fec/company-profiles
+f_hall: Pulses & Grains Hall
 f_hall-stand: Za'abeel Hall 4 - Z4-F11
 f_poc-phone: (+20)1007571118
 title: Spectra Company

@@ -3,6 +3,7 @@ f_website-link: https://www.eldoha.com
 f_company-profile-link: https://www.playbook.com/s/fec/company-profiles
 f_poc-email: null
 f_poc-name: null
+f_hall: Pulses & Grains Hall
 f_hall-stand: Za'abeel Hall 4 - Z4-F4
 f_poc-phone: (+20)1121009080
 title: Aldoha for Food Industries & Aldoha Foods

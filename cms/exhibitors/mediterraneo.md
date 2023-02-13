@@ -2,6 +2,7 @@
 f_website-link: https://www.mediterraneo-egypt.com
 f_company-profile-link: https://www.playbook.com/s/fec/company-profiles
 f_poc-name: null
+f_hall: Pulses & Grains Hall
 f_hall-stand: Za'abeel Hall 4 - Z4-E8
 f_poc-phone: (+20)1222157129
 title: Mediterraneo

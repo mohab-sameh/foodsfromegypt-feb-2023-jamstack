@@ -1,6 +1,7 @@
 ---
 f_website-link: https://www.nutsland.co
 f_company-profile-link: https://www.playbook.com/s/fec/company-profiles
+f_hall: Pulses & Grains Hall
 f_hall-stand: Za'abeel Hall 4 - Z4-F7
 f_poc-phone: (+20)1001818180
 title: Nutsland for Agriculture and Reclamation

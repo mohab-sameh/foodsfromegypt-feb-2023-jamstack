@@ -2,6 +2,7 @@
 f_website-link: https://www.alamireg.com
 f_company-profile-link: https://www.playbook.com/s/fec/company-profiles
 f_poc-phone: null
+f_hall: Pulses & Grains Hall
 f_hall-stand: Za'abeel Hall 4 - Z4-E14
 title: Alamir For Manufacturing and Preparing Agro Products
 f_poc-email: m.elaraby@eldoha.com
