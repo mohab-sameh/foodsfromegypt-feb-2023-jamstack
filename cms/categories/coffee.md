@@ -11,6 +11,8 @@ published-on: null
 f_exhibitors:
   - cms/exhibitors/al-mostafa-for-trading-and-supplies.md
   - cms/exhibitors/misrcafe-co.md
+  - cms/exhibitors/ottoman-for-trading-and-manufacturing-a-r-e-royal-herbs.md
+  - cms/exhibitors/mediterraneo.md
 tags: categories
 date: 2023-02-13T22:05:27.493Z
 ---
