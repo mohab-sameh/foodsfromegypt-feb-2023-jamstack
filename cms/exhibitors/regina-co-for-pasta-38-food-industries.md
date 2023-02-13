@@ -7,7 +7,7 @@ slug: regina-co-for-pasta-38-food-industries
 title: Regina Co. for Pasta  & Food Industries
 updated-on: 2023-02-13T21:41:58.949Z
 published-on: null
-f_hall: Pulses & Grains Hall
+f_hall: Dairy Hall
 f_hall-stand: Hall 2 - E2-43
 f_exhibitor-name: Regina Co. for Pasta  & Food Industries
 f_exhibitor-logo:
