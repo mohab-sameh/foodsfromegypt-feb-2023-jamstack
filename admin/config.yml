@@ -370,14 +370,14 @@ collections:
             name: '-150152bf'
             widget: string
           - hint: >-
-              Original text: Lorem ipsum dolor sit amet consectetur. Bibendum
-              libero proin augue bibendum tincidunt. Consequat auctor bibendum
-              scelerisque nisi. Posuere quisque lacus sed purus eget vulputate
-              pretium. Congue ornare risus lectus cras molestie ullamcorper
-              viverra blandit. At felis cursus suspendisse ac id., key:
-              -56ca424c
+              Original text: Egypt is very proud of its products and producers.
+              When it comes to food, Egypt is an enthusiast. We aim to grow
+              Egyptian foods to become an international sensation. Although not
+              an easy task, it won’t be our first time. Since the dawn of time
+              and our crops have been exported everywhere, from Rome to the
+              Arabian Peninsula., key: 2c96343e
             label: Text
-            name: '-56ca424c'
+            name: 2c96343e
             widget: text
           - hint: 'Original text: Learn More About the FEC, key: -4bffc06d'
             label: Text
@@ -451,6 +451,15 @@ collections:
             label: Text
             name: '-55ff3a20'
             widget: string
+          - hint: >-
+              Original text: Showing some of our top-notch producers of our
+              exquisite quality Egyptian food products. We promise you there’s
+              something you’ll love! But, we know its overwhelming to see all
+              this beauty in a couple of days, so check them out here! (We’d be
+              glad to connect you with whomever you want!), key: 898e69d
+            label: Text
+            name: 898e69d
+            widget: text
           - hint: 'Original text: Visit Exhibitor List , key: 595b8029'
             label: Text
             name: 595b8029
