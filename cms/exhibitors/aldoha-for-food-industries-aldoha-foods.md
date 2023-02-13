@@ -5,8 +5,8 @@ f_poc-email: null
 f_poc-name: null
 f_hall-stand: Za'abeel Hall 4 - Z4-F4
 f_poc-phone: (+20)1121009080
-title: Aldoha for Food Industries �Aldoha Foods�
-f_exhibitor-name: Aldoha for Food Industries �Aldoha Foods�
+title: Aldoha for Food Industries & Aldoha Foods
+f_exhibitor-name: Aldoha for Food Industries &Aldoha Foods
 slug: aldoha-for-food-industries-aldoha-foods
 f_exhibitor-logo:
   url: >-

@@ -5,8 +5,8 @@ f_poc-email: null
 f_poc-name: null
 f_hall-stand: Hall 2 - E2-43
 f_poc-phone: (+20)1205422224
-title: Ajwa for Food Industries Co. (OROUBA � BASMA)
-f_exhibitor-name: Ajwa for Food Industries Co. (OROUBA � BASMA)
+title: Ajwa for Food Industries Co. (OROUBA & BASMA)
+f_exhibitor-name: Ajwa for Food Industries Co. (OROUBA & BASMA)
 f_exhibitor-logo:
   url: >-
     https://uploads-ssl.webflow.com/63e7e60f7073806c8317ad04/63eaaea4a57a2c4071c6478b_MzcyYg.jpeg
