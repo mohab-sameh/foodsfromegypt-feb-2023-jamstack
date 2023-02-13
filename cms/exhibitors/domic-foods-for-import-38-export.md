@@ -4,10 +4,10 @@ f_company-profile-link: https://www.playbook.com/s/fec/company-profiles
 f_hall: Sheikh Maktoum
 f_hall-stand: Sheikh Maktoum  - M-E10
 f_poc-phone: (+20)1005258654
-title: Domic Foods for Import  &#38; Export
+title: Domic Foods for Import  & Export
 f_poc-email: gm@deluxe-product.com
 f_poc-name: Mohamed El-Nashar
-f_exhibitor-name: Domic Foods for Import  &#38; Export
+f_exhibitor-name: Domic Foods for Import  & Export
 slug: domic-foods-for-import-38-export
 f_exhibitor-logo:
   url: >-

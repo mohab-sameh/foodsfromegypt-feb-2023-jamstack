@@ -4,10 +4,10 @@ f_company-profile-link: https://www.playbook.com/s/fec/company-profiles
 f_hall: Sheikh Maktoum
 f_hall-stand: Sheikh Maktoum  - M-D18
 f_poc-phone: (+20)1275866677
-title: Expo East for Manufacturing  &#38; Global Trade Co.
+title: Expo East for Manufacturing  & Global Trade Co.
 f_poc-email: mohamed.aly@elsabah.net
 f_poc-name: Tamer Hasan Abd El Latef
-f_exhibitor-name: Expo East for Manufacturing  &#38; Global Trade Co.
+f_exhibitor-name: Expo East for Manufacturing  & Global Trade Co.
 slug: expo-east-for-manufacturing-38-global-trade-co
 f_exhibitor-logo:
   url: >-
