@@ -2,6 +2,7 @@
 f_website-link: https://www.united-ltd.com
 f_company-profile-link: https://www.playbook.com/s/fec/company-profiles
 f_poc-phone: null
+f_hall: Dairy Hall
 f_hall-stand: Hall 2 - D2-40
 title: United Co. For Manufacturing  & Packaging Foodstuff
 f_poc-email: ahmed@ufieg.com

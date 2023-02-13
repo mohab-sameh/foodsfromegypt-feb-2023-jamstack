@@ -2,6 +2,7 @@
 f_website-link: https://www.lavidasauces.com
 f_company-profile-link: https://www.playbook.com/s/fec/company-profiles
 f_poc-phone: null
+f_hall: Dairy Hall
 f_hall-stand: Hall 2 - E2-43
 title: First Mix (Lavida) House of Sauces
 f_poc-email: reem.refaat@elkoubasy.com

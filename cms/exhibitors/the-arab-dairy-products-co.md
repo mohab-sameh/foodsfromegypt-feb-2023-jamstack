@@ -1,6 +1,7 @@
 ---
 f_website-link: https://www.arabdairy.co
 f_company-profile-link: https://www.playbook.com/s/fec/company-profiles
+f_hall: Dairy Hall
 f_hall-stand: Hall 2 - D2-48
 f_poc-phone: (+20)1032211767
 title: The Arab Dairy Products Co.

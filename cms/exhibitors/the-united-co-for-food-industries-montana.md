@@ -1,6 +1,7 @@
 ---
 f_website-link: https://www.montanaeg.com
 f_company-profile-link: https://www.playbook.com/s/fec/company-profiles
+f_hall: Dairy Hall
 f_hall-stand: Hall 2 - CCM-17
 f_poc-phone: (+20)1006769996
 title: The United Co. for Food industries - Montana

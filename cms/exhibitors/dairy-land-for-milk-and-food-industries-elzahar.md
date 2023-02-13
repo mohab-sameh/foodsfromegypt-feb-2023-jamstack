@@ -2,6 +2,7 @@
 f_website-link: https://www.elzahar.com
 f_company-profile-link: https://www.playbook.com/s/fec/company-profiles
 f_poc-phone: null
+f_hall: Dairy Hall
 f_hall-stand: Hall 2 - D2-46
 title: Dairy Land for Milk and Food Industries (ELZahar)
 f_poc-email: ahmed.mahrous@badawygroup.net

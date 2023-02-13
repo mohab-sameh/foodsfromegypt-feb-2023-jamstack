@@ -1,6 +1,7 @@
 ---
 f_website-link: https://www.dixie-mills.com
 f_company-profile-link: https://www.playbook.com/s/fec/company-profiles
+f_hall: Dairy Hall
 f_hall-stand: Hall 2 - CCM-7
 f_poc-phone: (+20)1022415611
 title: Green Meadows for Food Industries
