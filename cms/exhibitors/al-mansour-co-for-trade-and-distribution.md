@@ -2,7 +2,6 @@
 f_website-link: https://www.mansour-int.com
 f_company-profile-link: https://www.playbook.com/s/fec/company-profiles
 f_poc-name: null
-f_hall: Sheikh Maktoum
 f_hall-stand: Sheikh Maktoum  - M-E43
 f_poc-phone: (+20)1000006390
 title: Al Mansour Co. for Trade and Distribution

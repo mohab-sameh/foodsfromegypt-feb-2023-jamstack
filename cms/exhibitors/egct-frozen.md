@@ -3,7 +3,6 @@ f_website-link: https://www.egctfrozen.com
 f_company-profile-link: https://www.playbook.com/s/fec/company-profiles
 f_poc-phone: null
 f_hall: Sheikh Maktoum
-f_hall: Sheikh Maktoum
 f_hall-stand: Sheikh Maktoum  - M-E40
 title: EGCT Frozen
 f_poc-email: ashraf.mazen@mashreqgroup.com

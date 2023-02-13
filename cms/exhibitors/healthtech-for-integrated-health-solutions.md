@@ -2,7 +2,6 @@
 f_website-link: https://www.healthtech-eg.com
 f_company-profile-link: https://www.playbook.com/s/fec/company-profiles
 f_hall: Sheikh Maktoum
-f_hall: Sheikh Maktoum
 f_hall-stand: Sheikh Maktoum  - M-E18
 f_poc-phone: (+20)1154037406
 title: Healthtech for Integrated Health Solutions

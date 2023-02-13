@@ -2,7 +2,6 @@
 f_website-link: https://www.goldenstatefoods.com
 f_company-profile-link: https://www.playbook.com/s/fec/company-profiles
 f_hall: Sheikh Maktoum
-f_hall: Sheikh Maktoum
 f_hall-stand: Sheikh Maktoum  - M-E35
 f_poc-phone: (+20)01100222695
 title: GSF Egypt

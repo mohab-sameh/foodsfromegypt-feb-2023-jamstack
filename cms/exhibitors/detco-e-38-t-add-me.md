@@ -3,7 +3,6 @@ f_website-link: https://www.add-me-eg.com
 f_company-profile-link: https://www.playbook.com/s/fec/company-profiles
 f_poc-phone: null
 f_hall: Sheikh Maktoum
-f_hall: Sheikh Maktoum
 f_hall-stand: Sheikh Maktoum  - M-D48
 title: DETCO E &T (ADD-ME)
 f_poc-email: info@elzahar.com

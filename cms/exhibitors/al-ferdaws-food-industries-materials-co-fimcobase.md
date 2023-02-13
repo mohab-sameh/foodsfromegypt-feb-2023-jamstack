@@ -2,7 +2,6 @@
 f_website-link: https://www.fimcobase.org
 f_company-profile-link: https://www.playbook.com/s/fec/company-profiles
 f_poc-name: null
-f_hall: Sheikh Maktoum
 f_hall-stand: Sheikh Maktoum  - CCM-5
 f_poc-phone: (+20)105223322
 title: Al Ferdaws Food Industries Materials Co. (FIMCOBASE)

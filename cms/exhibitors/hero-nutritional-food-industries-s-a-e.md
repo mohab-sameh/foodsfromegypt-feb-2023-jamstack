@@ -2,7 +2,6 @@
 f_website-link: https://www.heromea.com
 f_company-profile-link: https://www.playbook.com/s/fec/company-profiles
 f_hall: Sheikh Maktoum
-f_hall: Sheikh Maktoum
 f_hall-stand: Sheikh Maktoum  - M-134
 f_poc-phone: (+20)1002181376
 title: Hero Nutritional Food Industries S.A.E

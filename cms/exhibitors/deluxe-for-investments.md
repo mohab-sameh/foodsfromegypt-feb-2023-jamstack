@@ -3,7 +3,6 @@ f_website-link: https://www.deluxe-product.com
 f_company-profile-link: https://www.playbook.com/s/fec/company-profiles
 f_poc-phone: null
 f_poc-name: null
-f_hall: Sheikh Maktoum
 f_hall-stand: Sheikh Maktoum  - M-230
 title: Deluxe for Investments
 f_poc-email: youssef@coldalex.com

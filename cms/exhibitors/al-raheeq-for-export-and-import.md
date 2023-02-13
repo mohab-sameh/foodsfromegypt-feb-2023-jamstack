@@ -3,7 +3,6 @@ f_website-link: https://www.Alraheeqhoney.Com/
 f_company-profile-link: https://www.playbook.com/s/fec/company-profiles
 f_poc-email: null
 f_poc-name: null
-f_hall: Sheikh Maktoum
 f_hall-stand: Sheikh Maktoum  - M-236
 f_poc-phone: (+20)100933377
 title: Al-Raheeq for Export and Import

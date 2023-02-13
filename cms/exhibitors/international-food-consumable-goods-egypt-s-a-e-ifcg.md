@@ -1,7 +1,6 @@
 ---
 f_company-profile-link: https://www.playbook.com/s/fec/company-profiles
 f_hall: Sheikh Maktoum
-f_hall: Sheikh Maktoum
 f_hall-stand: Sheikh Maktoum  - M-E5
 f_poc-phone: (+20)1000001085
 title: International Food & Consumable Goods Egypt S.A.E. - IFCG

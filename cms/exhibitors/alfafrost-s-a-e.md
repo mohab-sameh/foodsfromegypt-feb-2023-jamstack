@@ -1,7 +1,6 @@
 ---
 f_website-link: https://www.alfafrost.com
 f_company-profile-link: https://www.playbook.com/s/fec/company-profiles
-f_hall: Sheikh Maktoum
 f_hall-stand: Sheikh Maktoum  - M-D44
 f_poc-phone: (+20)1110222286
 title: ALFAFROST S.A.E

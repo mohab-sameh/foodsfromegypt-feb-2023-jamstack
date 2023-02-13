@@ -3,7 +3,6 @@ f_website-link: https://www.coldalex.com
 f_company-profile-link: https://www.playbook.com/s/fec/company-profiles
 f_poc-phone: null
 f_poc-name: null
-f_hall: Sheikh Maktoum
 f_hall-stand: Sheikh Maktoum  - M-E11
 title: Cold Alex for Food Processing
 f_poc-email: Abdelrahman.ElMoghazy@mashreqbd.com

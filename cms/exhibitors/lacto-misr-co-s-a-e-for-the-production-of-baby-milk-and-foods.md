@@ -1,7 +1,6 @@
 ---
 f_company-profile-link: https://www.playbook.com/s/fec/company-profiles
 f_hall: Sheikh Maktoum
-f_hall: Sheikh Maktoum
 f_hall-stand: Sheikh Maktoum  - M-F33
 f_poc-phone: (+20)1000370357
 title: Lacto-Misr Co. (S.A.E) for The Production of Baby Milk and Foods
