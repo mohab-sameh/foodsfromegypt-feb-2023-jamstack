@@ -1510,6 +1510,11 @@ h3 {
   text-decoration: none;
 }
 
+.company-link-block {
+  width: 100%;
+  text-decoration: none;
+}
+
 @media screen and (max-width: 991px) {
   .navbar-logo-left {
     position: fixed;
