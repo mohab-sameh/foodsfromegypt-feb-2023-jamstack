@@ -685,21 +685,25 @@ collections:
             label: Link
             name: '-5e686ca2'
             widget: string
-          - hint: 'Original link: http://facebook.com, key: 63d9516b'
+          - hint: >-
+              Original link: https://www.facebook.com/FoodExportCouncil/, key:
+              19a2b790
             label: Link
-            name: 63d9516b
+            name: 19a2b790
             widget: string
-          - hint: 'Original link: http://linkedin.com, key: 19976ba3'
+          - hint: >-
+              Original link:
+              https://www.linkedin.com/company/food-export-council-fec/?originalSubdomain=eg,
+              key: 3ba591c0
             label: Link
-            name: 19976ba3
+            name: 3ba591c0
             widget: string
-          - hint: 'Original link: http://instagram.com, key: -5cd3f38d'
+          - hint: >-
+              Original link:
+              https://www.youtube.com/channel/UC5YMx8xFGQqEHjCGcG1SY4g, key:
+              2ee3cc4
             label: Link
-            name: '-5cd3f38d'
-            widget: string
-          - hint: 'Original link: http://youtube.com, key: 499802e4'
-            label: Link
-            name: '499802e4'
+            name: 2ee3cc4
             widget: string
       - label: Images
         name: images
@@ -789,19 +793,6 @@ collections:
                 required: false
           - label: Image
             name: '-65191692'
-            widget: object
-            fields:
-              - name: url
-                label: Image Url
-                widget: image
-                allow_multiple: false
-                required: false
-              - name: alt
-                label: Image Alt
-                widget: string
-                required: false
-          - label: Image
-            name: 4bc5256e
             widget: object
             fields:
               - name: url
