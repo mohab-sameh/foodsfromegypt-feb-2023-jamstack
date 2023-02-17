@@ -681,9 +681,9 @@ collections:
             label: Link
             name: 55b8e8be
             widget: string
-          - hint: 'Original link: https://foodsfromegypt.org#contact, key: -5e686ca2'
+          - hint: 'Original link: #contact, key: 6c80469d'
             label: Link
-            name: '-5e686ca2'
+            name: 6c80469d
             widget: string
           - hint: 'Original link: http://facebook.com, key: 63d9516b'
             label: Link
