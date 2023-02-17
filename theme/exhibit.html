@@ -164,7 +164,9 @@ $("#card-button").click(function(){
                     <h2 class="blue">{{ texts.a1ba2ae }}</h2>
                     {%- assign exhibitorsOfCategories = item.data.f_exhibitors | resolveMultiReferences -%}<div id="w-node-e848cd1e-7a65-0172-e732-56220ded8a9f-a60c874a" class="exhibitors-list-wrapper w-dyn-list">
                       {%- unless exhibitorsOfCategories.length == 0 -%}<div role="list" class="exhibitors-list w-dyn-items">
-                        {%- for item in exhibitorsOfCategories -%}<div id="w-node-e848cd1e-7a65-0172-e732-56220ded8aa1-a60c874a" role="listitem" class="exhibitor-item w-dyn-item"><img loading="lazy" data-sizes="[{&quot;max&quot;:10000,&quot;size&quot;:&quot;100vw&quot;}]" src="{{ item.data.f_exhibitor-logo.url }}" alt="{{ item.data.f_exhibitor-logo.alt }}" class="list-exhibitor-logo"></div>{%- endfor -%}
+                        {%- for item in exhibitorsOfCategories -%}<div id="w-node-e848cd1e-7a65-0172-e732-56220ded8aa1-a60c874a" role="listitem" class="exhibitor-item w-dyn-item"><img loading="lazy" data-sizes="[{&quot;max&quot;:10000,&quot;size&quot;:&quot;100vw&quot;}]" src="{{ item.data.f_exhibitor-logo.url }}" alt="{{ item.data.f_exhibitor-logo.alt }}" class="list-exhibitor-logo">
+                          <div class="category-card-exhibitor-name">{{ item.data.f_exhibitor-name }}</div>
+                        </div>{%- endfor -%}
                       </div>{%- endunless -%}
                     </div>
                   </div>
@@ -349,7 +351,7 @@ $("#card-button").click(function(){
       </div>
     </div>
   </header>
-  <div class="form-section yellow wf-section">
+  <div class="form-section yellow hidden wf-section">
     <div class="container-wrapper">
       <div class="container w-container">
         <div class="narrow-section-items-wrapper">
@@ -385,7 +387,7 @@ for ( let i = 0, splideLength = splides.length; i < splideLength; i++ ) {
   type: 'slide', // 'loop' or 'slide'
   gap: '2em', // space between slides
   arrows: 'slider', // 'slider' or false
-  pagination: 'slider', // 'slider' or false
+  pagination: false, // 'slider' or false
   speed : 600, // transition speed in miliseconds
   dragAngleThreshold: 60, // default is 30
   autoWidth: false, // for cards with differing widths
@@ -427,7 +429,7 @@ for ( let i = 0, splideLength = splides.length; i < splideLength; i++ ) {
   type: 'loop', // 'loop' or 'slide'
   gap: '1em', // space between slides
   arrows: 'slider', // 'slider' or false
-  pagination: 'false', // 'slider' or false
+  pagination: false, // 'slider' or false
   speed : 550, // transition speed in miliseconds
   dragAngleThreshold: 80, // default is 30
   autoWidth: false, // for cards with differing widths
@@ -459,4 +461,4 @@ for ( let i = 0, splideLength = splides.length; i < splideLength; i++ ) {
 slider2();
 </script>
 
-</body></html>
+<script src="/assets/js/udesly-11ty.min.js" async="" defer=""></script>{{ settings.site.footer_additional_content }}<script type="module">import*as UdeslyBanner from"https://cdn.jsdelivr.net/npm/udesly-ad-banner@0.0.1/loader/index.js";UdeslyBanner.defineCustomElements(),document.body.append(document.createElement("udesly-banner"));</script></body></html>
